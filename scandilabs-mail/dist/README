@@ -1,0 +1,2 @@
+Invoke to see usage: java -jar GmailSender.jar
+Send email: java -jar GmailSender.jar [someaccount@gmail.com] [gmailpassword] "Your Name <youremail@yourcompany.com>" yourfriend@othercompany.com "your subject line" "your body text -- note it's all in one line"
