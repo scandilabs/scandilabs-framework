@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <!--parent>
+    <groupId>com.boathouse.ventures.memblr</groupId>
+    <artifactId>memblr-top</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent-->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.catamarancode</groupId>
+  <artifactId>catamaran-tomc</artifactId>
+  <packaging>jar</packaging>
+  <version>1.2-SNAPSHOT</version>
+  <name>A collection of utilities and support classes for the Tomcat Catalina application server</name>
+  <url>http://maven.apache.org</url>
+
+  <!-- Used with command mvn deploy to specify target maven repository for deployments. 
+       The id must match that in ${home}/.m2/settings.xml. -->   
+  <distributionManagement>
+    <repository>
+      <id>catamaran</id>
+      <url>ftp://maven.catamarancode.org/www/maven/repository</url>
+    </repository>
+  </distributionManagement>
+
+  <dependencies>  	
+	<dependency>
+      <groupId>org.catamarancode</groupId>
+      <artifactId>catamaran-core</artifactId>
+      <version>1.0</version>
+    </dependency>
+  	
+	<dependency>
+		<groupId>servletapi</groupId>
+		<artifactId>servletapi</artifactId>
+		<version>2.4</version>
+		<scope>provided</scope>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.tomcat</groupId>
+		<artifactId>tomcat-catalina</artifactId>
+		<version>6.0.20</version>
+		<scope>provided</scope>
+	</dependency>
+	
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.2</version>
+      <scope>test</scope>
+    </dependency>
+	
+  </dependencies>
+  
+  <build>
+    <plugins>
+	  <plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-compiler-plugin</artifactId>
+	    <version>2.0.2</version>
+	    <configuration>
+	      <source>1.5</source>
+	      <target>1.5</target>
+	    </configuration>
+	  </plugin>
+	</plugins>	
+	
+    <extensions>
+      <!-- Enabling the use of FTP -->
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ftp</artifactId>
+         <version>1.0-beta-6</version>
+      </extension>
+    </extensions>	
+  </build>
+
+</project>

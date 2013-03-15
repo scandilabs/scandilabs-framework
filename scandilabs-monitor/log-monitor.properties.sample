@@ -1,0 +1,34 @@
+# Copy this file to log-monitor.properties and make sure it's available in the java execution path
+
+# The regex that represents an error. We recommended you set up a high-level way to catch exceptions 
+# (such as a servlet filter or a Spring MVC exception handler) and use it to write exception log entries 
+# with a standard (but uncommon) prefix.  Then this regex can be set to match that prefix.
+log.entry.token.regex=.*INFO.*
+
+# All files in this directory will be watched for changes
+log.directory.to.watch=/my/project/logs
+
+# .. unless a specific file is set here
+# log.file.to.watch=/my/project/logs/my-webapp.log
+
+# If true, then emails will be sent every minute (useful for testing). Normally leave this at false (which sends emails every hour).
+log.send.every.minute=true
+
+# SMTP settings.  Sample settings use gmail (which works well for low volumes)
+email.host=smtp.gmail.com
+email.port=465
+email.protocol=smtps
+email.username=contact@example.com
+email.password=mypass
+email.mail.smtps.auth=true
+email.mail.smtps.starttls.enable=true
+email.mail.smtps.debug=true
+
+# Emails will use this from address
+email.default.from=Monitoring Service <contact@example.com>
+
+# Emails will be sent to this address
+email.to=john_doe@example.com
+
+# Subject prefix
+email.subject=Exception failures
