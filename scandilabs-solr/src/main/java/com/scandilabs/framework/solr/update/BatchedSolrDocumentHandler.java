@@ -1,8 +1,9 @@
-package org.catamarancode.solr.update;
+package com.scandilabs.framework.solr.update;
 
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
-import org.catamarancode.solr.SolrServerConfig;
+
+import com.scandilabs.framework.solr.SolrServerConfig;
 
 /**
  * A BatchedSolrDocumentUpdater updates either single or batched documents.

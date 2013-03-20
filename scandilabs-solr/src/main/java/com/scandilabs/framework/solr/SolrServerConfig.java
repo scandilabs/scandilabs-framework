@@ -1,4 +1,4 @@
-package org.catamarancode.solr;
+package com.scandilabs.framework.solr;
 
 import java.net.MalformedURLException;
 

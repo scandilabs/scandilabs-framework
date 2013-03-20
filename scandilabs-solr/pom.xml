@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.catamarancode</groupId>
-  <artifactId>catamaran-solr</artifactId>
+  <groupId>com.scandilabs.framework</groupId>
+  <artifactId>scandilabs-solr</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>A collection of Java support classes and utilities for the Lucene-based Apache Solr server</name>
   <url>http://maven.apache.org</url>
   
@@ -12,8 +12,8 @@
        The id must match that in ${home}/.m2/settings.xml. -->   
   <distributionManagement>
     <repository>
-      <id>catamaran</id>
-      <url>ftp://maven.catamarancode.org/www/maven/repository</url>
+      <id>maven.scandilabs</id>
+      <url>ftp://maven.scandilabs.com/www/maven/repository</url>
     </repository>
   </distributionManagement>
   

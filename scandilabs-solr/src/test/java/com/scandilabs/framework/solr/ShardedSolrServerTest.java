@@ -1,4 +1,4 @@
-package org.catamarancode.solr;
+package com.scandilabs.framework.solr;
 
 import java.io.IOException;
 import java.net.ConnectException;
@@ -17,6 +17,10 @@ import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.scandilabs.framework.solr.SearchQuery;
+import com.scandilabs.framework.solr.ShardedSolrServer;
+import com.scandilabs.framework.solr.SolrServerConfig;
 
 /**
  * Unit test for simple App.
