@@ -1,4 +1,4 @@
-package org.catamarancode.entity.support;
+package com.scandilabs.framework.entity.support;
 
 /**
  * Defines an entity that knows how to persist itself

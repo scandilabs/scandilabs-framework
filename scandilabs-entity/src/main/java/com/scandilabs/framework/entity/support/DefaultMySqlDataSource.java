@@ -1,4 +1,4 @@
-package org.catamarancode.entity.support;
+package com.scandilabs.framework.entity.support;
 
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 

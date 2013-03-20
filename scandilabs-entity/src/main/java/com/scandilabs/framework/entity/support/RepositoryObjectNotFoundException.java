@@ -1,4 +1,4 @@
-package org.catamarancode.entity.support;
+package com.scandilabs.framework.entity.support;
 
 /**
  * Thrown when a persistent entity cannot be found. Exists in order to not

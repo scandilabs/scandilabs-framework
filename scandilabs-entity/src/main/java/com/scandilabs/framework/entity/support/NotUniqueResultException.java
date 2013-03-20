@@ -1,4 +1,4 @@
-package org.catamarancode.entity.support;
+package com.scandilabs.framework.entity.support;
 
 /**
  * Thrown when a single unique result was expected in a database query, but

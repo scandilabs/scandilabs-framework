@@ -1,4 +1,4 @@
-package org.catamarancode.spring.mvc;
+package com.scandilabs.framework.mvc;
 
 import java.util.Map;
 

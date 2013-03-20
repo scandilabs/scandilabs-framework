@@ -1,4 +1,4 @@
-package org.catamarancode.entity.support;
+package com.scandilabs.framework.entity.support;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;

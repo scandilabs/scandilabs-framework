@@ -1,4 +1,4 @@
-package org.catamarancode.spring.mvc;
+package com.scandilabs.framework.mvc;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

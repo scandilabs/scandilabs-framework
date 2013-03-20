@@ -1,4 +1,4 @@
-package org.catamarancode.entity.support;
+package com.scandilabs.framework.entity.support;
 
 /**
  * Marker interface for objects that can be uniquely identified by a single id.

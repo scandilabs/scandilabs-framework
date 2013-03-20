@@ -1,4 +1,4 @@
-package org.catamarancode.spring.mvc.freemarker;
+package com.scandilabs.framework.mvc.freemarker;
 
 import java.util.Map;
 
